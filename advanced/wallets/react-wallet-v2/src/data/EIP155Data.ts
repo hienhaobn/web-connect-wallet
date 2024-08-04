@@ -74,6 +74,15 @@ export const EIP155_TEST_CHAINS: Record<string, EIP155Chain> = {
     namespace: 'eip155',
     smartAccountEnabled: true
   },
+  'eip155:6': {
+    chainId: 6,
+    name: 'Songbird Testnet Coston',
+    logo: '/chain-logos/eip155-1.png',
+    rgb: '99, 125, 234',
+    rpc: 'https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+    namespace: 'eip155',
+    smartAccountEnabled: true
+  },
   'eip155:11155111': {
     chainId: 11155111,
     name: 'Ethereum Sepolia',

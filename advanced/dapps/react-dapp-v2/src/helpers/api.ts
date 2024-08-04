@@ -35,6 +35,14 @@ export const rpcProvidersByChainId: RpcProvidersByChainId = {
       symbol: "ETH",
     },
   },
+  16: {
+    name: "Songbird Testnet Coston",
+    baseURL: WALLETCONNECT_RPC_BASE_URL + "&chainId=eip155:16",
+    token: {
+      name: "Songbird Testnet Coston",
+      symbol: "FLR",
+    },
+  },
   11155111: {
     name: "Ethereum Sepolia",
     baseURL: WALLETCONNECT_RPC_BASE_URL + "&chainId=eip155:11155111",

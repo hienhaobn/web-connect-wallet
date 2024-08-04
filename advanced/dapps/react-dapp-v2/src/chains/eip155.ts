@@ -133,6 +133,20 @@ export const EIP155ChainData: ChainsMap = {
     slip44: 60,
     testnet: true,
   },
+  "16": {
+    id: "eip155:16",
+    name: "Songbird Testnet Coston",
+    rpc: [
+      "https://coston-api.flare.network/ext/C/rpc",
+      "https://songbird-testnet-coston.rpc.thirdweb.com",
+      "https://01-gravelines-004-01.rpc.tatum.io/ext/bc/C/rpc",
+      "https://02-chicago-004-02.rpc.tatum.io/ext/bc/C/rpc",
+      "https://02-tokyo-004-03.rpc.tatum.io/ext/bc/C/rpc",
+      "https://coston.enosys.global/ext/C/rpc",
+    ],
+    testnet: true,
+    slip44: 1,
+  },
 };
 
 export const EIP155Metadata: NamespaceMetadata = {
@@ -151,6 +165,11 @@ export const EIP155Metadata: NamespaceMetadata = {
   },
   "10": {
     name: "Optimism",
+    logo: "/assets/" + "eip155-10.png",
+    rgb: EIP155Colors.optimism,
+  },
+  "16": {
+    name: "Songbird Testnet Coston",
     logo: "/assets/" + "eip155-10.png",
     rgb: EIP155Colors.optimism,
   },
